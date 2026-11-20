@@ -1,0 +1,21 @@
+
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Favorite Movie</title>
+</head>
+<body>
+
+    <form th:action="@{/MovieName}" method="GET">
+
+        <input type="text" name="studentName"
+               placeholder="What is your favorite movie?" />
+
+        <input type="submit" />
+
+    </form>
+
+</body>
+</html>
